@@ -1,0 +1,44 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  .destination {
+    margin-bottom: 3em;
+  }
+  
+  img {
+    max-width: 400px;
+    height: auto;
+    width: 100%;
+  }
+  
+  h2 {
+    margin-top: 0.5em;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+
+  
