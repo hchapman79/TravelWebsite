@@ -1,0 +1,75 @@
+
+
+header {
+    background-color: white 
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-family: 'Caveat', cursive; 
+    font-size: x-large;
+    text-align: center;
+    background-color: white;
+}
+.banner {
+    padding-top: 10px;
+}
+h3 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+text-align: center;
+}
+h2 {
+  padding-top: 100px;
+    padding-bottom: 30px;
+  text-align: center;
+}
+.intro {
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.news {
+  padding-top: 25px;
+}
+footer {
+  background-color: white;
+  padding-top: 10px;
+  align-items: center;
+  text-align: center;
+}
+.row {
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.img__wrap {
+  position: relative;
+  height: 500px;
+  width: 470px;
+}
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility 2s;
+}
+
+.img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+  }
+
